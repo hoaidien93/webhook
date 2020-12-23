@@ -11,6 +11,5 @@ router.get("/login", authController.getLogin)
 router.post("/login", authController.handleLogin)
 
 router.post("/post-job", siteController.postJob)
-router.get("/post-job", siteController.postJob)
 
 module.exports = router
